@@ -1,9 +1,10 @@
 import React from "react";
 import { Element , Link as LinkScroll} from "react-scroll";
+import Button from "../components/Button";
 
 const Hero = () => {
   return (
-    <section className="relative pt-60 pb-40 max-lg:pt-50 max-lg:pb-36 max-md:pt-36 max-md:pb-32 border-2 border-amber-400">
+    <section className="relative pt-60 pb-40 max-lg:pt-50 max-lg:pb-36 max-md:pt-36 max-md:pb-32">
       <Element name="hero">
         <div className="container">
           <div className="relative z-2 max-w-512 max-lg:max-w-388">
@@ -21,7 +22,7 @@ const Hero = () => {
             </p>
 
             <LinkScroll to="features" offset = {-100} spy smooth>
-                
+                <Button icon="/images/zap.svg"/>
             </LinkScroll>
           </div>
         </div>
