@@ -22,8 +22,11 @@ const Hero = () => {
             </p>
 
             <LinkScroll to="features" offset = {-100} spy smooth>
-                <Button icon="/images/zap.svg"/>
+                <Button icon="/images/zap.svg">Try it now</Button>
             </LinkScroll>
+          </div>
+          <div className="absolute -top-32 left-2/3">
+              <img src="/images/hero.png" alt="hero" className="size-1230 max-lg:h-auto left-[calc(50%-340px)] w-[1230px]"/>
           </div>
         </div>
       </Element>
