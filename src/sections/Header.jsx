@@ -26,7 +26,7 @@ const Header = () => {
       spy
       smooth
       activeClass="nav-active"
-      className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
+      className={clsx("base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5")}
     >
       {title}
     </LinkScroll>
@@ -68,7 +68,7 @@ const Header = () => {
                     spy
                     smooth
                     className={clsx(
-                      "max-lg:hidden transition-transform duration-500 cursor-pointer "
+                      "max-lg:hidden transition-transform duration-500 cursor-pointer"
                     )}
                   >
                     <img
@@ -83,7 +83,7 @@ const Header = () => {
                 <li className="nav-li">
                   <NavLink title="faq" />
                   <div className="dot" />
-                  <NavLink title="pricing" />
+                  <NavLink title="download" />
                 </li>
               </ul>
             </nav>
