@@ -4,21 +4,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        p1: '#2EF2FF',
-        p2: '#3C52D9',
-        p3: '#C8EA80',
-        p4: '#EAEDFF',
-        p5: '#C4CBF5',
-        s1: '#080D27',
-        s2: '#0C1838',
-        s3: '#334679',
-        s4: '#1959AD',
-        s5: '#263466',
+        p1: '#E0FFFF',  // Light Cyan (almost white)
+        p2: '#B0E0E6',  // Powder Blue
+        p3: '#F0F8FF',  // Alice Blue (whitish-blue)
+        p4: '#F8FAFC',  // Very Light White
+        p5: '#E6F7FF',  // Light Sky Blue (very bright)
+        s1: '#D9EFFF',  // Light Bright Blue
+        s2: '#F5F5F5',  // Bright White
+        s3: '#D1E7FF',  // Pale Blue
+        s4: '#CCE7FF',  // Soft Blue Tint
+        s5: '#FFFFFF',  // Pure White
         black: {
-          DEFAULT: '#000000',
-          100: '#05091D',
+          DEFAULT: '#2F2F2F',  // Dark Grey (to contrast with bright white)
+          100: '#1A1A1A',      // Black for deeper accents
         },
-      },
+    }
+    ,
       boxShadow: {
         100: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #1959AD',
         200: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 4px 10px #3391FF',
